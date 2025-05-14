@@ -26,7 +26,7 @@ const addFoodErrorHandler = (name, category, cost, description, image) => {
 const makeOrderErrorHandler = (name, email, foodName, address) => {
   if (!name) return "Please enter your name";
   if (!email) return "Please enter your email";
-  if (!foodName) return "Food name reuired";
+  if (!foodName) return "Food name required";
   if (!address) return "Please enter your address";
 };
 
